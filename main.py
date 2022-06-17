@@ -8,10 +8,11 @@ frequency = 0
 
 #entradas
 while start_date not in dias:
-        start_date = input('Start date: ')
-
+    start_date = input('Start date: ')
+    # start_date = transform(start_date)
 while end_date not in dias:
     end_date = input('End date: ')
+    # end_date = transform(end_date)
     if end_date in dias:
         if dias.index(end_date) < dias.index(start_date):
             end_date = 0

@@ -37,3 +37,11 @@ def mainfunction(start_date, end_date, capital, frequency):
             else:
                 retorno.append({'Date':dias[i], 'Capital':capital, 'Amount earned':(capital-capital0)})
     return retorno
+
+
+#Criando função que transforma de ano-mes-dia para dia/mes/ano
+
+def transform(data):
+    listadata = data.split('-')
+    ano, mes, dia = listadata
+    return f'{dia}/{mes}/{ano}'
