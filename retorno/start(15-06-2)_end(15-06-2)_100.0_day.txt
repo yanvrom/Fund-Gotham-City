@@ -1,0 +1,1 @@
+[{'Date': '15/06/2022', 'Capital': 100.0, 'Amount earned': 0}]

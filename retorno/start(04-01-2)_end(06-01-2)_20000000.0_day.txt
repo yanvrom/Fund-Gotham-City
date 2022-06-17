@@ -1,0 +1,1 @@
+[{'Date': '04/01/2000', 'Capital': 20000000.0, 'Amount earned': 0}, {'Date': '05/01/2000', 'Capital': 20013844.0, 'Amount earned': 13844.0}, {'Date': '06/01/2000', 'Capital': 20027710.79195384, 'Amount earned': 27710.79195383936}]
