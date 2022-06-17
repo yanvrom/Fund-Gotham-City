@@ -7,8 +7,13 @@ frequency = 0
 #entradas
 while start_date not in dias:
     start_date = input('Start date: ')
+
 while end_date not in dias:
     end_date = input('End date: ')
+    if end_date in dias:
+        if dias.index(end_date) < dias.index(start_date):
+            end_date = 0
+        
 
 capital = float(input('Capital: '))
 
