@@ -5,7 +5,7 @@ def calculate(capital, taxa, n):
     return m
 
 
-def main(start_date, end_date, capital, frequency):
+def mainfunction(start_date, end_date, capital, frequency):
     capital0 = capital
 
     #infosguardadas dia, capital, ganho
